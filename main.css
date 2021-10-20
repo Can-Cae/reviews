@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(22, 17, 17);
+  color: rgb(254, 253, 255);
+  font-weight: 900;
+}
+h1 {
+  margin-top: 100px;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  color: honeydew;
+}
+h1::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: violet;
+  position: absolute;
+
+  right: 46%;
+  border-radius: 1px;
+  top: 120%;
+}
+.card {
+  width: 100%;
+  background-color: rgb(53, 50, 50);
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.reviews {
+  width: 50%;
+  height: 60vh;
+  text-align: center;
+  background-color: indigo;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 5px 5px 5px 5px red;
+  border-radius: 10px;
+}
+
+img {
+  display: block;
+
+  width: auto;
+  height: 120px;
+  border-radius: 30%;
+  border: 2px solid cyan;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.prev {
+  display: inline-block;
+  margin-right: 10px;
+}
+button {
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(71, 56, 56);
+}
+input {
+  width: 200px;
+  height: 40px;
+}
+label {
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 2rem;
+}
+.description-form {
+  height: 100px;
+  width: 400px;
+  color: black;
+}
+.submit-form {
+  margin-top: 30px;
+  width: 150px;
+  height: 60px;
+  font-size: 1.5rem;
+}
+span {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.video {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+video {
+  width: 100%;
+  height: 100%;
+}
