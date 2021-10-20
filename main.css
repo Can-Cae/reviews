@@ -48,6 +48,10 @@ h1::after {
   box-shadow: 5px 5px 5px 5px red;
   border-radius: 10px;
 }
+.info {
+  max-width: 400px;
+  overflow-wrap: break-word;
+}
 
 img {
   display: block;
